@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>IBM</title>
+    <!-- BOOTSTRAP 4 CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="static/css/main.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-light navbar-expand-lg"  style="background-color: #ff81f3;">
+      <a class="navbar-brand" href="home.html"><img src = "static/images/IBM.png" height = "30" class="d-inline-block align-text-top" alt=""> Proyect App </a>
+
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" href="api.html">Api</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+      <div style="background:transparent !important" class="jumbotron jumbotron-fluid">
+        <h1 class="display-4"><b>Cáncer de mama</b></h1>
+        <p class="lead">El cáncer de máma es una de las enfermedades mas mortales en el mundo.</p>
+        <hr>
+      
+      </div>
+    </div>
+    <div class="container">
+      <div style="background:transparent !important" class="jumbotron jumbotron-fluid">
+  </div>
+  
+  <form class="form-inline">
+    <div class="form-group mx-sm-3 mb-2">
+      <label for="rad" class="sr-only">Radio (en cm)</label>
+      <input type="number" step="0.01" class="form-control" id="rad" placeholder="Radio">
+  </div>
+  <div class="form-group mx-sm-3 mb-2">
+    <label for="per" class="sr-only">Perímetro (en cm)</label>
+    <input type="number" step="0.01" class="form-control" id="per" placeholder="Perímetro">
+  </div>
+  <div class="form-group  mb-2">
+   <label for="are" class="sr-only">Área (en cm)</label>
+    <input type="number" step="0.01" class="form-control" id="are" placeholder="Área">
+  </div>
+  <div class="form-group mx-sm-3 ">
+    <label for="tex" class="sr-only">Textura</label>
+    <input type="number" step="0.01" class="form-control" id="tex" placeholder="Textura">
+  </div>
+  <div class="form-group mx-sm-3 mb-2">
+    <label for="sua" class="sr-only">Suavidad</label>
+    <input type="number" step="0.01" class="form-control" id="sua" placeholder="Suavidad">
+  </div>
+  <button type="submit" class="btn btn-light mx-sm-3 mb-2" style="background-color:#ffffff">Ver resultado</button>
+</form>
+    <!-- SCRIPTS -->
+  </body>
+</html>
