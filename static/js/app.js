@@ -7,6 +7,6 @@ const textura = document.getElementById("tex")
 const suavidad = document.getElementById("sua")
 
 form.addEventListener("submit",e=>{
-
+  warnings = "Hola"
 }
                       
