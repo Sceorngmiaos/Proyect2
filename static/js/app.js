@@ -4,4 +4,4 @@ const perimetro = document.getElementById("per")
 const area = document.getElementById("are")
 const textura = document.getElementById("tex")
 const suavidad = document.getElementById("sua")
-const radio = document.getElementById("rad")
+
