@@ -30,9 +30,26 @@ form.addEventListener("submit", (e)=>{
 				buttons: false,
 				});
 			}else{
+				if{suavidad.value*textura.value>1.4720541{
+					swal({
+						title:'Resultado de la predicción',
+						text:"Maligno",
+						background: '#ffdbfc',
+						backdrop: true,
+						buttons: false,
+					});
+				}else{
+					
+				}
 			}
 		}
 	}else{
-		swal('Apikey invalida','favor de introducir un apikey valida')
+		swal({
+						title:'ApiKey inválida',
+						text:"Favor de introducir un apikey valida",
+						background: '#ffdbfc',
+						backdrop: true,
+						buttons: false,
+					});
 	}
 });
