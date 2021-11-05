@@ -12,8 +12,8 @@ const suavidad = document.getElementById("sua");
 form.addEventListener("submit", (e)=>{
 	e.preventDefault();
 	if(API_KEY.value.length==44){
-		if(radio.value*perimetro.value*area.value>2384016.75){
-			Swal.fire({
+		if(radio.value*perimetro.value*area.value>2043764.82){
+			swal.fire({
 				title:'Resultado de la predicción',
 				text:"Benigno",
 				background: '#ffdbfc',
