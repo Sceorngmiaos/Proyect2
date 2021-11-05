@@ -10,3 +10,13 @@ form.addEventListener("submit",e=>{
   warnings = "Hola"
 }
                       
+
+function getToken(errorCallback, loadCallback) {
+	const req = new XMLHttpRequest();
+	req.addEventListener("load", loadCallback);
+	req.addEventListener("error", errorCallback);
+	req.open("POST", "https://iam.cloud.ibm.com/identity/token");
+	req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+	req.setRequestHeader("Accept", "application/json");
+	req.send("grant_type=urn:ibm:params:oauth:grant-type:apikey&apikey=" + API_KEY);
+}
