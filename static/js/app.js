@@ -21,7 +21,7 @@ form.addEventListener("submit", (e)=>{
 				buttons: false,
 				});
 		}else{
-			if(radio.value*perimetro.value*area.value*suavidad.value*textura.value<2464323.754){
+			if(radio.value*perimetro.value*area.value*suavidad.value*textura.value>2464323.754){
 				swal({
 				title:'Resultado de la predicción',
 				text:"Benigno",
