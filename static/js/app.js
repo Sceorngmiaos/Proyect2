@@ -11,7 +11,7 @@ const suavidad = document.getElementById("sua");
 
 form.addEventListener("submit", (e)=>{
 	e.preventDefault();
-	if(API_KEY.value.length=44){
+	if(API_KEY.value.length==44){
 		if(radio.value*perimetro.value*area.value>2384016.75){
 			swal('Título','Contenido')
 		}else{
