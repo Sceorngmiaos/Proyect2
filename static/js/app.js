@@ -14,7 +14,6 @@ form.addEventListener("submit", (e)=>{
 	if(API_KEY.value.length=44){
 		if(radio.value*perimetro.value*area.value>2384016.75){
 			swal('Título','Contenido')
-		}
 		}else{
 			swal('No','Si')
 		}
