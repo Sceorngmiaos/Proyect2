@@ -47,6 +47,24 @@ form.addEventListener("submit", (e)=>{
 							backdrop: true,
 							buttons: false,
 						});
+					}else{
+						if(radio.value*suavidad.value<1.1563235{
+						   	swal({
+								title:'Resultado de la predicción',
+								text:"Maligno",
+								background: '#ffdbfc',
+								backdrop: true,
+								buttons: false,
+							});
+						   }else{
+							  swal({
+								title:'Resultado de la predicción',
+								text:"Benigno",
+								background: '#ffdbfc',
+								backdrop: true,
+								buttons: false,
+								}); 
+						   }
 					}
 				}
 			}
