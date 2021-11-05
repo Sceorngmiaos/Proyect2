@@ -21,7 +21,7 @@ form.addEventListener("submit", (e)=>{
 	e.preventDefault();
 	console.log("Form has been submitted:")
 	getToken((err) => console.log(err), function () {
-	let tokenResponse;
+	let tokenResponse
 	try {
 		tokenResponse = JSON.parse(this.responseText);
 	} catch(ex) {
@@ -31,4 +31,4 @@ form.addEventListener("submit", (e)=>{
 	
 
 	
-});
+})
