@@ -19,5 +19,5 @@ form.addEventListener("submit", (e)=>{
 			swal('No','Si')
 		}
 	}else{
-		Swal('Apikey invalida','favor de introducir un apikey valida')
+		swal('Apikey invalida','favor de introducir un apikey valida')
 });
