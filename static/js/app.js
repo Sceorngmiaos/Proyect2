@@ -10,7 +10,6 @@ const suavidad = document.getElementById("sua");
 
 function getToken(errorCallback, loadCallback) {
 	const req = new XMLHttpRequest();
-	Access-Control-Allow-Origin:*
 	req.addEventListener("load", loadCallback);
 	req.addEventListener("error", errorCallback);
 	req.open("POST", "https://iam.cloud.ibm.com/identity/token");
