@@ -27,6 +27,8 @@ form.addEventListener("submit", (e)=>{
 	} catch(ex) {
 		// TODO: handle parsing exception
 	}
-	console.log("Token generado")	
+	console.log("Token generado")
+	console.log(radio.value)
+	console.log(tokenResponse.token)
 	
 });
