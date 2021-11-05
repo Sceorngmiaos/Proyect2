@@ -11,5 +11,13 @@ const suavidad = document.getElementById("sua");
 
 form.addEventListener("submit", (e)=>{
 	e.preventDefault();
-	console.log("Form has been submitted:")	
+	if(API_KEY.value.length=44){
+		if(radio.value*perimetro.value*area.value>2384016.75){
+			swal('Título','Contenido')
+		}
+		}else{
+			swal('No','Si')
+		}
+	}else{
+		Swal('Apikey invalida','favor de introducir un apikey valida')
 });
