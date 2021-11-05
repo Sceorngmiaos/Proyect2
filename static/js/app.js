@@ -13,7 +13,7 @@ form.addEventListener("submit", (e)=>{
 	e.preventDefault();
 	if(API_KEY.value.length==44){
 		if(radio.value*perimetro.value*area.value>2043764.82){
-			swal.fire({
+			swal({
 				title:'Resultado de la predicción',
 				text:"Benigno",
 				background: '#ffdbfc',
