@@ -5,7 +5,7 @@ const perimetro = document.getElementById("per");
 const area = document.getElementById("are");
 const textura = document.getElementById("tex");
 const suavidad = document.getElementById("sua");
-console.log(radio.value);
+
 
 function getToken(errorCallback, loadCallback) {
 	const req = new XMLHttpRequest();
