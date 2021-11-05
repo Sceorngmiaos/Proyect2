@@ -48,7 +48,7 @@ form.addEventListener("submit", (e)=>{
 							buttons: false,
 						});
 					}else{
-						if(radio.value*suavidad.value>1.1563235){
+						if(radio.value*suavidad.value<1.1563235){
 						   	swal({
 								title:'Resultado de la predicción',
 								text:"Maligno",
