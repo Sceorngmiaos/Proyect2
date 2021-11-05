@@ -7,8 +7,11 @@ const textura = document.getElementById("tex")
 const suavidad = document.getElementById("sua")
 
 form.addEventListener("submit",e=>{
-  warnings = "Hola"
-}
+	e.preventDefault()
+	let warnings = ''
+	warnings = "Hola"
+	
+})
                       
 
 function getToken(errorCallback, loadCallback) {
