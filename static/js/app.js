@@ -39,7 +39,7 @@ form.addEventListener("submit", (e)=>{
 						buttons: false,
 					});
 				}else{
-					if{area.value*perimetro.value>26505.28{
+					if(area.value*perimetro.value>26505.28){
 						swal({
 							title:'Resultado de la predicción',
 							text:"Maligno",
