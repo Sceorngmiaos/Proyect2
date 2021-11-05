@@ -1,3 +1,4 @@
+Access-Control-Allow-Origin:*
 const form = document.getElementById("myForm");
 const API_KEY = document.getElementById("Apikey");
 const radio = document.getElementById("rad");
